@@ -27,8 +27,12 @@ library(shinyalert)
 #setting up API. Make sure when get_spotify_authorization_code runs, you 
 #verify with spotify and select "No" when it asks if you'd like to cache results in Console. 
 #RUN THIS BEFORE ALL OTHER CODE
-id <- "0798c2bac40840aeb6759bf3a039f609"
-secret <- "8cf2bcb368b543c8b198e477b3a3dd23"
+
+obtain id/secret from setting up a spotify app using the spotify api. 
+
+id <- put spotify id here
+secret <- put secret id here
+
 Sys.setenv(SPOTIFY_CLIENT_ID = id)
 Sys.setenv(SPOTIFY_CLIENT_SECRET = secret)
 access_token <- get_spotify_access_token()
