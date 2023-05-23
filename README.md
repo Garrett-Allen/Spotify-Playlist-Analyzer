@@ -22,3 +22,6 @@ for him to share music in a mass-way.
 Finally, I wanted to have a clean implementation to combine playlists together,
 as the current method of dragging and dropping in the Spotify client becomes
 really cumbersome for large datasets. 
+
+Unfortunately, due to limitations with the SpotifyR API, this webapp can only be run locally
+on someone's machine by pulling the code here and running it in their RStudio. 
